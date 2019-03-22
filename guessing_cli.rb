@@ -12,7 +12,7 @@ def run_guessing_game
     elsif input.to_i != rand_number
       puts "The computer guessed #{rand_number}."
     else
-      puts "Nothing"
+      puts "Invalid guess"
     end
   end
 end
